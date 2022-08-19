@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan dept">
+
+  <test  name="personal loan">
+    <classes>
+      <class name="udemyPractice.Class2"/>
+      <class name="udemyPractice.Class1"/>
+      <class name="udemyPractice.Class3">
+<methods>
+<exclude name="Mobile.*">
+</exclude>
+</methods>
+      </class>
+
+    </classes>
+  </test> 
+
+<test name="Car Loan">
+<classes>
+<class name="udemyPractice.Class4">
+<methods>
+<exclude name="MobileloginHomeLoan"></exclude>
+</methods>
+</class>
+</classes>
+</test>
+</suite> 
